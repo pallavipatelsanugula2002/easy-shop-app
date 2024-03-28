@@ -14,7 +14,7 @@ const Header = () => {
   const handleLogoutClick = () => {
     handleLogout();
     toast.success("Logged out successfully!");
-    navigate("/login"); // Redirect to login page after logout
+    navigate("/"); // Redirect to home page after logout
   };
   
   return (
