@@ -1,0 +1,84 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    width: 320px; /* Set a fixed width for the card */
+    height: auto; /* Adjust height to accommodate variable content */
+    text-align: center;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.product-card:hover {
+    transform: scale(1.025); /* Increase scale on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }
+
+.product-image {
+    width: 100%; /* Make the image take up the full width of its container */
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensure image covers its container */
+    margin: auto;
+}
+
+.product-details {
+    margin-top: 10px;
+}
+
+.product-title {
+    font-size: 18px;
+    margin-top: 10px; /* Increase top margin for better spacing */
+}
+
+.product-description {
+    margin-top: 5px;
+}
+
+.product-price,
+.product-rating,
+.product-stock {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.action-buttons button {
+    margin: 0 5px; /* Add spacing between buttons */
+    min-width: 100px; /* Set a minimum width for buttons */
+}
+
+.view-details-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.view-details-btn:hover {
+  background-color: #18cf22;
+}
+.add-to-cart-btn {
+  background-color: rgb(228, 152, 10);
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: rgb(255, 166, 0);
+}

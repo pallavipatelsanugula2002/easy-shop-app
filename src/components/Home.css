@@ -1,0 +1,42 @@
+.home-container{
+    background-image: url('../images/homePageImg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1{
+    margin: 0px;
+    font-size: 30px;
+}
+
+.home-body{
+    color: rgb(0, 0, 0);
+    padding: 6%;
+}
+
+.shop-now{
+    background-color: green;
+    width: 10vw;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    transition: width 0.4s ease-in-out;
+    font-weight: bold;
+}
+.shop-now:hover{
+    background-color: rgb(226, 240, 36);
+    color: rgb(0, 0, 0);
+    width: 11vw;
+}
+@media (max-width: 700px) {
+    .home-container {
+        background-image: url('../images/homePageImg.jpg');
+        background-size: cover;
+    background-position: right;
+        height: 100vh;
+    }
+    .shop-now{
+        width: 20vw;
+    }
+}
