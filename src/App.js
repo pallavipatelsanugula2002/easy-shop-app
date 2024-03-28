@@ -15,7 +15,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   useEffect(() => {
-    document.title = "DisplayProducts"; //setting new title
+    document.title = "EasyShop"; //setting new title
   }, []);
   return (
       <ContextProvider>
